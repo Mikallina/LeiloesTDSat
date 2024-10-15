@@ -28,6 +28,15 @@ Um novo projeto na empresa está sendo iniciado. Desta vez, uma casa de leilões
 - Commit #1: botão de salvar cadastrando produto.
 - Commit #2: listagem de produtos funcionando.
 
+## Atividade III
+- Operação de venderProduto() em ProdutosDAO – a função deve atualizar o status de um produto para “Vendido”.
+- Operação de listarProdutosVendidos() em ProdutosDAO – a função deve buscar todos os produtos no banco de dados com o status “Vendido”.
+- Deve ser implementada uma tela de Vendas exibindo apenas os itens com status “Vendido”.
+- Deve ser implementada a funcionalidade de venderProduto na tela de listagem – já há um botão para isso, mas ele ainda não está funcionando.
+- Deve ser implementada a navegação no botão Consultar Vendas para abrir a tela de Vendas.
+- Os commits dessa atividade devem ser enviados para uma ramificação (branch) separada da utilizada anteriormente. Então, crie uma nova ramificação, chamada “melhorias”, com o comando git branch, e envie o registro de versionamento local para o repositório remoto, com o comando git push, apontando para essa nova ramificação.
+   
+
 ### Implementação
 
 1. **README.md**
